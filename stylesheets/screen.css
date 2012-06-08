@@ -460,10 +460,13 @@ body article #intro p + p {
 }
 /* line 128, ../sass/screen.scss */
 body article #intro strong {
+  -webkit-box-shadow: 2px 2px 1px 1px #dceed7;
+  -moz-box-shadow: 2px 2px 1px 1px #dceed7;
+  box-shadow: 2px 2px 1px 1px #dceed7;
   background-color: #f5faf4;
   padding: 0 4px;
 }
-/* line 134, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 body article section#clients {
   display: inline;
   float: right;
@@ -477,11 +480,11 @@ body article section#clients {
   padding: 20px;
   font-size: 80%;
 }
-/* line 142, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 body article section#clients * {
   margin: 0;
 }
-/* line 145, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 body article section#writing-samples {
   border-top: 1px solid #e6e6e6;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
@@ -492,7 +495,7 @@ body article section#writing-samples {
   background-image: linear-gradient(bottom, #ffffff, #f2f2f2);
   padding: 15px 0;
 }
-/* line 153, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 body article hr {
   background: #dddddd;
   color: #dddddd;
@@ -505,7 +508,7 @@ body article hr {
   width: 90%;
   margin: 40px auto;
 }
-/* line 159, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 body article ul#pitching, body article ul#clients {
   margin: 0;
   padding: 0;
@@ -531,43 +534,43 @@ body article ul#pitching li, body article ul#clients li {
 body article ul#pitching li, body article ul#clients li {
   *display: inline;
 }
-/* line 165, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 body article ul#pitching li, body article ul#clients li {
   padding: 0 10px;
 }
-/* line 168, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 body article ul#clients {
   margin-bottom: 40px;
 }
-/* line 169, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 body article ul#clients li {
   padding: 0;
   margin: 0;
 }
-/* line 173, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 body article ul#clients li + li {
   margin-left: 30px;
 }
-/* line 178, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 body article ul#fit {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
   margin-left: 15px;
 }
-/* line 182, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 body article ul#fit li {
   margin-left: 0;
   background: url('images/bullet.png') no-repeat left 15px;
   padding: 15px 0 15px 40px;
 }
-/* line 189, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 body article ul#samples {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
-/* line 191, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 body article ul#samples li {
   margin-left: 0;
   padding: 10px 0 0 30px;
