@@ -350,7 +350,30 @@ body article p.first:first-letter {
 body article p#accounts {
   font-size: 120%;
 }
-/* line 53, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
+body article p#accounts a {
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 18px;
+  margin-left: 5px;
+}
+/* line 56, ../sass/screen.scss */
+body article p#accounts a.twitter {
+  background-image: url(images/twitter.png);
+}
+/* line 57, ../sass/screen.scss */
+body article p#accounts a.linkedin {
+  background-image: url(images/linkedin.gif);
+}
+/* line 58, ../sass/screen.scss */
+body article p#accounts a.pintrest {
+  background-image: url(images/pintrest.png);
+}
+/* line 59, ../sass/screen.scss */
+body article p#accounts a.blog {
+  background-image: url(images/blog.png);
+}
+/* line 65, ../sass/screen.scss */
 body article p.emphasized {
   font-family: "Just Me Again Down Here";
   font-size: 200% !important;
@@ -367,7 +390,7 @@ body article p.emphasized {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 67, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 body article #intro {
   background-image: url(images/lauren300.jpg), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ecf6e9), color-stop(100%, #cde7c5));
   background-image: url(images/lauren300.jpg), -webkit-linear-gradient(top, #ecf6e9, #cde7c5);
@@ -386,7 +409,7 @@ body article #intro {
   font-size: 110%;
   margin-bottom: 40px;
 }
-/* line 76, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 body article #intro a#resume {
   color: inherit;
   text-decoration: inherit;
@@ -412,35 +435,35 @@ body article #intro a#resume {
 body article #intro a#resume:active, body article #intro a#resume:focus {
   outline: none;
 }
-/* line 90, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 body article #intro h1 {
   font-size: 200%;
   padding: 10px;
   background: url('images/ridejoy_logo.png') no-repeat 65px 6px;
 }
-/* line 95, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 body article #intro h1 span {
   width: 165px;
   visibility: hidden;
   display: inline-block;
 }
-/* line 100, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 body article #intro h1 img {
   position: absolute;
   display: block;
   float: left;
 }
-/* line 114, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 body article #intro p + p {
   margin-bottom: 0;
   margin-top: 1em;
 }
-/* line 116, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 body article #intro strong {
   background-color: #f5faf4;
   padding: 0 4px;
 }
-/* line 122, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 body article section#clients {
   display: inline;
   float: right;
@@ -454,11 +477,11 @@ body article section#clients {
   padding: 20px;
   font-size: 80%;
 }
-/* line 130, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 body article section#clients * {
   margin: 0;
 }
-/* line 133, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 body article section#writing-samples {
   border-top: 1px solid #e6e6e6;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
@@ -469,7 +492,7 @@ body article section#writing-samples {
   background-image: linear-gradient(bottom, #ffffff, #f2f2f2);
   padding: 15px 0;
 }
-/* line 141, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 body article hr {
   background: #dddddd;
   color: #dddddd;
@@ -482,7 +505,7 @@ body article hr {
   width: 90%;
   margin: 40px auto;
 }
-/* line 147, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 body article ul#pitching, body article ul#clients {
   margin: 0;
   padding: 0;
@@ -508,43 +531,43 @@ body article ul#pitching li, body article ul#clients li {
 body article ul#pitching li, body article ul#clients li {
   *display: inline;
 }
-/* line 153, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 body article ul#pitching li, body article ul#clients li {
   padding: 0 10px;
 }
-/* line 156, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 body article ul#clients {
   margin-bottom: 40px;
 }
-/* line 157, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 body article ul#clients li {
   padding: 0;
   margin: 0;
 }
-/* line 161, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 body article ul#clients li + li {
   margin-left: 30px;
 }
-/* line 166, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 body article ul#fit {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
   margin-left: 15px;
 }
-/* line 170, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 body article ul#fit li {
   margin-left: 0;
   background: url('images/bullet.png') no-repeat left 15px;
   padding: 15px 0 15px 40px;
 }
-/* line 177, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 body article ul#samples {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
-/* line 179, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 body article ul#samples li {
   margin-left: 0;
   padding: 10px 0 0 30px;

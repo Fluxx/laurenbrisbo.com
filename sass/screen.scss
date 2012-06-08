@@ -46,6 +46,18 @@ body {
 
     p#accounts {
       font-size: 120%;
+
+      a {
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 18px;
+        margin-left: 5px;
+
+        &.twitter { background-image: url(images/twitter.png);}
+        &.linkedin { background-image: url(images/linkedin.gif);}
+        &.pintrest { background-image: url(images/pintrest.png);}
+        &.blog { background-image: url(images/blog.png);}
+      }
     }
 
     background: $article;
