@@ -44,6 +44,10 @@ body {
       line-height: 0.85em;
     }
 
+    p > strong {
+      background: lighten(yellow, 40%);
+    }
+
     p#accounts {
       font-size: 120%;
 
