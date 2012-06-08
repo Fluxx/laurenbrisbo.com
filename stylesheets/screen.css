@@ -336,17 +336,21 @@ body article h1, body article h2, body article h3, body article h4, body article
 body article h2 {
   font-size: 180%;
 }
-/* line 40, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
+body article h3 {
+  font-size: 120%;
+}
+/* line 41, ../sass/screen.scss */
 body article p.first:first-letter {
   font-weight: bold;
   font-size: 180%;
   line-height: 0.85em;
 }
-/* line 46, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 body article p#accounts {
   font-size: 120%;
 }
-/* line 52, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 body article p.emphasized {
   font-family: "Just Me Again Down Here";
   font-size: 200% !important;
@@ -363,7 +367,7 @@ body article p.emphasized {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 66, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 body article #intro {
   background-image: url(images/lauren300.jpg), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ecf6e9), color-stop(100%, #cde7c5));
   background-image: url(images/lauren300.jpg), -webkit-linear-gradient(top, #ecf6e9, #cde7c5);
@@ -378,38 +382,65 @@ body article #intro {
   color: black;
   background-position: left;
   background-repeat: no-repeat;
-  padding: 20px 0 20px 300px;
+  padding: 11px 0 11px 300px;
   font-size: 110%;
   margin-bottom: 40px;
 }
-/* line 75, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
+body article #intro a#resume {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  color: #fbfdfb;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d85175), color-stop(100%, #c92d57));
+  background-image: -webkit-linear-gradient(top, #d85175, #c92d57);
+  background-image: -moz-linear-gradient(top, #d85175, #c92d57);
+  background-image: -o-linear-gradient(top, #d85175, #c92d57);
+  background-image: -ms-linear-gradient(top, #d85175, #c92d57);
+  background-image: linear-gradient(top, #d85175, #c92d57);
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  padding: 5px 12px;
+}
+/* line 6, ../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+body article #intro a#resume:active, body article #intro a#resume:focus {
+  outline: none;
+}
+/* line 90, ../sass/screen.scss */
 body article #intro h1 {
   font-size: 200%;
   padding: 10px;
   background: url('images/ridejoy_logo.png') no-repeat 65px 6px;
 }
-/* line 80, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 body article #intro h1 span {
   width: 165px;
   visibility: hidden;
   display: inline-block;
 }
-/* line 85, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 body article #intro h1 img {
   position: absolute;
   display: block;
   float: left;
 }
-/* line 99, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 body article #intro p + p {
   margin-bottom: 0;
+  margin-top: 1em;
 }
-/* line 101, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 body article #intro strong {
   background-color: #f5faf4;
   padding: 0 4px;
 }
-/* line 107, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 body article section#clients {
   display: inline;
   float: right;
@@ -423,11 +454,22 @@ body article section#clients {
   padding: 20px;
   font-size: 80%;
 }
-/* line 115, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 body article section#clients * {
   margin: 0;
 }
-/* line 118, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
+body article section#writing-samples {
+  border-top: 1px solid #e6e6e6;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
+  background-image: -webkit-linear-gradient(bottom, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(bottom, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(bottom, #ffffff, #f2f2f2);
+  background-image: -ms-linear-gradient(bottom, #ffffff, #f2f2f2);
+  background-image: linear-gradient(bottom, #ffffff, #f2f2f2);
+  padding: 15px 0;
+}
+/* line 141, ../sass/screen.scss */
 body article hr {
   background: #dddddd;
   color: #dddddd;
@@ -440,7 +482,7 @@ body article hr {
   width: 90%;
   margin: 40px auto;
 }
-/* line 124, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 body article ul#pitching, body article ul#clients {
   margin: 0;
   padding: 0;
@@ -466,43 +508,43 @@ body article ul#pitching li, body article ul#clients li {
 body article ul#pitching li, body article ul#clients li {
   *display: inline;
 }
-/* line 130, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 body article ul#pitching li, body article ul#clients li {
   padding: 0 10px;
 }
-/* line 133, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 body article ul#clients {
   margin-bottom: 40px;
 }
-/* line 134, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 body article ul#clients li {
   padding: 0;
   margin: 0;
 }
-/* line 138, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 body article ul#clients li + li {
   margin-left: 30px;
 }
-/* line 143, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 body article ul#fit {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
   margin-left: 15px;
 }
-/* line 147, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 body article ul#fit li {
   margin-left: 0;
   background: url('images/bullet.png') no-repeat left 15px;
   padding: 15px 0 15px 40px;
 }
-/* line 154, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 body article ul#samples {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
-/* line 156, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 body article ul#samples li {
   margin-left: 0;
   padding: 10px 0 0 30px;

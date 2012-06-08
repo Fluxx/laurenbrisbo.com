@@ -36,6 +36,7 @@ body {
     }
 
     h2 { font-size: 180%; }
+    h3 { font-size: 120%; }
 
     p.first:first-letter {
       font-weight: bold;
@@ -72,6 +73,20 @@ body {
 
       position: relative;
 
+      a#resume {
+        @include unstyled-link;
+        @include border-radius(8px);
+
+        color: lighten($background, 20%);
+        @include background-image(
+        linear-gradient(top, $emphasized, darken($emphasized, 10%))
+      );
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        padding: 5px 12px;
+      }
+
       h1 {
         font-size: 200%;
         padding: 10px;
@@ -92,11 +107,11 @@ body {
       color: black;
       background-position: left;
       background-repeat: no-repeat;
-      padding: 20px 0 20px 300px;
+      padding: 11px 0 11px 300px;
       font-size: 110%;
       margin-bottom: 40px;
 
-      p + p { margin-bottom: 0; }
+      p + p { margin-bottom: 0; margin-top: 1em;}
 
       strong {
         background-color: lighten($intro, 3%);
@@ -113,6 +128,14 @@ body {
       font-size: 80%;
 
       & * { margin: 0; }
+    }
+
+    section#writing-samples {
+      border-top: 1px solid darken(white, 10%);
+      @include background-image(
+        linear-gradient(bottom, white, darken(white, 5%))
+      );
+      padding: 15px 0;
     }
 
     hr {
