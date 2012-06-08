@@ -26,6 +26,10 @@ body {
   article {
     @include container;
 
+    a {
+      @include link-colors(darken($background, 50%), darken($background, 30%), $background, darken($background, 20%));
+    }
+
     #{headings()}, p, ul, li {
       margin-left: 40px;
       margin-right: 40px;
@@ -38,8 +42,10 @@ body {
       font-size: 180%;
       line-height: 0.85em;
     }
-    // h2:before { content: "{"; }
-    // h2:after { content: "}"; }
+
+    p#accounts {
+      font-size: 120%;
+    }
 
     background: $article;
 
@@ -142,7 +148,16 @@ body {
         margin-left: 0;
         background: image-url("bullet.png") no-repeat left 15px;
         padding: 15px 0 15px 40px;
+      }
     }
+
+    ul#samples {
+      @include no-bullet;
+      li {
+        margin-left: 0;
+        padding: 10px 0 0 30px;
+        background: image-url("pdf.png") no-repeat 0 10px;
+      }
     }
 
 
