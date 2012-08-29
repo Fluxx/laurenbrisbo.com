@@ -443,7 +443,7 @@ body article #intro a#resume:active, body article #intro a#resume:focus {
 body article #intro h1 {
   font-size: 200%;
   padding: 10px;
-  background: url('images/getaround_logo.png') no-repeat 65px 6px;
+  background: url('images/indiegogo_logo.png') no-repeat 65px 10px;
 }
 /* line 111, ../sass/screen.scss */
 body article #intro h1 span {
