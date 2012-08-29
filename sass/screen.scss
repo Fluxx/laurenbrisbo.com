@@ -68,7 +68,7 @@ body {
 
     p.emphasized {
       font-family: "Just Me Again Down Here";
-      font-size: 200% !important;
+      font-size: 180% !important;
       @include background-image(
         linear-gradient(top, $emphasized, darken($emphasized, 10%))
       );
@@ -78,6 +78,7 @@ body {
       padding: 10px 40px;
       margin-left: 0;
       margin-right: 0;
+      text-align: center;
     }
 
     #intro {
