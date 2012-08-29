@@ -409,7 +409,7 @@ body article #intro {
   color: black;
   background-position: left;
   background-repeat: no-repeat;
-  padding: 11px 0 11px 300px;
+  padding: 14px 0 13px 300px;
   font-size: 110%;
   margin-bottom: 40px;
 }
@@ -442,7 +442,7 @@ body article #intro a#resume:active, body article #intro a#resume:focus {
 /* line 106, ../sass/screen.scss */
 body article #intro h1 {
   font-size: 200%;
-  padding: 10px;
+  padding: 8px;
   background: url('images/indiegogo_logo.png') no-repeat 65px 10px;
 }
 /* line 111, ../sass/screen.scss */
@@ -469,8 +469,9 @@ body article #intro strong {
   box-shadow: 2px 2px 1px 1px #dceed7;
   background-color: #f5faf4;
   padding: 0 4px;
+  font-size: 95%;
 }
-/* line 139, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 body article section#clients {
   display: inline;
   float: right;
@@ -484,11 +485,11 @@ body article section#clients {
   padding: 20px;
   font-size: 80%;
 }
-/* line 147, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 body article section#clients * {
   margin: 0;
 }
-/* line 150, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 body article section#writing-samples {
   border-top: 1px solid #e6e6e6;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
@@ -499,7 +500,7 @@ body article section#writing-samples {
   background-image: linear-gradient(bottom, #ffffff, #f2f2f2);
   padding: 15px 0;
 }
-/* line 158, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 body article hr {
   background: #dddddd;
   color: #dddddd;
@@ -512,7 +513,7 @@ body article hr {
   width: 90%;
   margin: 40px auto;
 }
-/* line 164, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 body article ul#pitching, body article ul#clients {
   margin: 0;
   padding: 0;
@@ -538,43 +539,43 @@ body article ul#pitching li, body article ul#clients li {
 body article ul#pitching li, body article ul#clients li {
   *display: inline;
 }
-/* line 170, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 body article ul#pitching li, body article ul#clients li {
   padding: 0 10px;
 }
-/* line 173, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 body article ul#clients {
   margin-bottom: 40px;
 }
-/* line 174, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 body article ul#clients li {
   padding: 0;
   margin: 0;
 }
-/* line 178, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 body article ul#clients li + li {
   margin-left: 30px;
 }
-/* line 183, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 body article ul#fit {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
   margin-left: 15px;
 }
-/* line 187, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 body article ul#fit li {
   margin-left: 0;
   background: url('images/bullet.png') no-repeat left 15px;
   padding: 15px 0 15px 40px;
 }
-/* line 194, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 body article ul#samples {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
-/* line 196, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 body article ul#samples li {
   margin-left: 0;
   padding: 10px 0 0 30px;
