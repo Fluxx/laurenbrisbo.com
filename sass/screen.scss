@@ -73,7 +73,7 @@ body {
         linear-gradient(top, $emphasized, darken($emphasized, 10%))
       );
       color: white;
-      font-size: 130%;
+      font-size: 120%;
       font-weight: bold;
       padding: 10px 40px;
       margin-left: 0;
@@ -133,7 +133,7 @@ body {
         @include single-box-shadow(darken($intro, 5%), 2px, 2px, 1px, 1px);
         background-color: lighten($intro, 3%);
         padding: 0 4px;
-        font-size: 95%;
+        font-size: 90%;
       }
     }
 
